@@ -2,7 +2,7 @@
 
 TradingViewStochastic
 
-three classes : 
+three classes to add to your project, using talib java : 
 
 TradingViewStochastic.java
 StochasticOscillatorKIndicator2.java
@@ -19,4 +19,4 @@ Example :
   StochasticOscillatorDIndicator2 stod = new StochasticOscillatorDIndicator2(stok);
 
   System.out.println("stok  : " + stok.getValue(series.getEndIndex()));
-	System.out.println("stod  : " + stod.getValue(series.getEndIndex()));
+  System.out.println("stod  : " + stod.getValue(series.getEndIndex()));
